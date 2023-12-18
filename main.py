@@ -2,7 +2,7 @@ import random
 class JapaneseEncoderDecoder:
     def generate_random_key(word_len):
         # Generate a list of random numbers for encoding
-        return [random.randint(1, 9) for _ in range(word_len)]
+        return [random.randint(2, 9) for _ in range(word_len)]
 
     @staticmethod
     def encode(encode_input):
